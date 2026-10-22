@@ -1,16 +1,27 @@
-# React + Vite
+# 🎬 Movie Search – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Eine Film-App, entwickelt mit React, die aktuelle Filme und detaillierte Filminformationen übersichtlich darstellt.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Aktuelle Filme** – Aktuelle und beliebte Filme entdecken.
+- **Filmsuche** – Filme anhand ihres Titels suchen.
+- **Zwei APIs** – Integration von zwei APIs zum Abrufen und Anzeigen von Filmdaten.
+- **Filmdetails** – Detaillierte Informationen zu ausgewählten Filmen anzeigen.
+- **Modale Fenster** – Zusätzliche Filminformationen in interaktiven Modal-Fenstern darstellen.
+- **Pagination** – Film-Ergebnisse auf mehrere Seiten aufteilen.
 
-## React Compiler
+## 🛠️ Technologien
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- HTML
+- REST API
+- Swagger zur API-Dokumentation
 
-## Expanding the Oxlint configuration
+## 🚀 Ziel des Projekts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Das Projekt dient dazu, praktische Erfahrungen mit der Integration mehrerer APIs, asynchronen Datenabfragen, Pagination und interaktiven Benutzeroberflächen mit React zu sammeln.
+
+
