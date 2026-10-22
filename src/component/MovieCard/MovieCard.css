@@ -1,0 +1,36 @@
+.card-movie {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.card-btnOpenModal {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

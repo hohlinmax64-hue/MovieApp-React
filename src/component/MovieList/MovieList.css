@@ -1,0 +1,27 @@
+.cards {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.block {
+  width: 100%;
+}
+
+/* Сама сетка фильмов */
+.block > * {
+  width: 100%;
+}
+
+/* Пагинация */
+.cards > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
